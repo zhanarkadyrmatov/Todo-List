@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.wrapper {
+  width: 40%;
+  margin: 5rem auto;
+  padding: 0;
+  text-align: center;
+}
+
+.todo__list {
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: left;
+  margin: 2pem 0;
+  padding: 1rem;
+  list-style: none;
+}
+
+.todo__item {
+  padding: 1.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.todo__item:last-child {
+  margin-bottom: 0;
+}
